@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Telegram Expense Tracker | Rodolfo Robles</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <h1><a href="index.html">Home</a></h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#projects">Projects</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="hero" class="project-hero">
+    <div class="hero-container">
+      <div class="hero-content-left" data-aos="fade-right">
+        <span class="hero-tag">Featured Project</span>
+        <h2>Telegram Bot for Personal Finance Tracking</h2>
+        <p>Log your expenses via Telegram – stored securely with AWS and Google Sheets</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="project-overview">
+    <div class="container">
+      <div class="overview-grid">
+        <div class="overview-text" data-aos="fade-right">
+          <h3>Overview</h3>
+          <p>This Telegram bot simplifies personal expense tracking by allowing users to log expenses through chat
+            messages. By leveraging AWS Lambda and Google Sheets, it provides a seamless experience for maintaining
+            financial records without the need for complex spreadsheets or apps.</p>
+        </div>
+        <div class="overview-image" data-aos="fade-left">
+          <img
+            src="https://images.unsplash.com/photo-1611746872915-64382b5c76da?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+            alt="Messaging Interface">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="impact">
+    <div class="container">
+      <div class="impact-content" data-aos="fade-up">
+        <h3>Why It Matters</h3>
+        <p>Managing personal finances shouldn't be a chore. This bot transforms the way you track expenses by making it
+          as simple as sending a message. No more forgetting to log expenses or dealing with complicated apps – just
+          quick, efficient financial tracking that fits into your daily routine.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="system-diagram">
+    <div class="container">
+      <h3 data-aos="fade-up">How It Works</h3>
+      <div class="diagram" data-aos="fade-up">
+        <div class="diagram-step">
+          <i class="fab fa-telegram"></i>
+          <h4>User Input</h4>
+          <p>Send expense data via Telegram chat</p>
+        </div>
+        <i class="fas fa-arrow-right"></i>
+        <div class="diagram-step">
+          <i class="fab fa-aws"></i>
+          <h4>AWS Lambda</h4>
+          <p>Process and validate data</p>
+        </div>
+        <i class="fas fa-arrow-right"></i>
+        <div class="diagram-step">
+          <i class="fab fa-google"></i>
+          <h4>Google Sheets</h4>
+          <p>Store and organize expenses</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="technologies">
+    <div class="container">
+      <h3 data-aos="fade-up">Technologies Used</h3>
+      <div class="tech-grid" data-aos="fade-up">
+        <div class="tech-item">
+          <i class="fab fa-telegram"></i>
+          <span>Telegram Bot API</span>
+        </div>
+        <div class="tech-item">
+          <i class="fab fa-aws"></i>
+          <span>AWS Lambda</span>
+        </div>
+        <div class="tech-item">
+          <i class="fab fa-google"></i>
+          <span>Google Sheets API</span>
+        </div>
+        <div class="tech-item">
+          <i class="fab fa-python"></i>
+          <span>Python</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="features" class="features-section">
+    <div class="container">
+      <h3 data-aos="fade-up">Key Features</h3>
+      <div class="features-grid" data-aos="fade-up">
+        <div class="feature-card">
+          <i class="fas fa-shield-alt"></i>
+          <h4>Secure Input</h4>
+          <p>Simple and secure expense input via chat</p>
+        </div>
+        <div class="feature-card">
+          <i class="fas fa-clock"></i>
+          <h4>Real-time Logging</h4>
+          <p>Instant data processing and storage</p>
+        </div>
+        <div class="feature-card">
+          <i class="fas fa-chart-line"></i>
+          <h4>Monthly Tracking</h4>
+          <p>Automatic expense categorization and tracking</p>
+        </div>
+        <div class="feature-card">
+          <i class="fas fa-table"></i>
+          <h4>Easy Access</h4>
+          <p>Simple spreadsheet access and editing</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="github-repo">
+    <div class="container">
+      <div class="github-content" data-aos="fade-up">
+        <i class="fab fa-github"></i>
+        <h3>Explore the Code</h3>
+        <p>Check out the complete source code, contribute, or fork the project for your own use.</p>
+        <a href="https://github.com/RodolfoRbl/telegram-expense-tracker" target="_blank" class="github-button">
+          View on GitHub <i class="fas fa-external-link-alt"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <p>&copy; 2025 Rodolfo Robles Ramos</p>
+        <div class="social-links">
+          <a href="https://github.com/RodolfoRbl" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://linkedin.com/in/robles-rodolfo" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800,
+      once: true,
+      offset: 100
+    });
+  </script>
+</body>
+
+</html>
