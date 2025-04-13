@@ -821,3 +821,24 @@ social-links a:hover {
   font-size: 0.95rem;
   line-height: 1.6;
 }
+.about-me-text-paragraph {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  color: rgba(255, 255, 255, 0.9);
+  text-align: left;
+  font-weight: 400;
+  text-align: justify;
+  letter-spacing: 0.01em;
+  padding-right: 1rem;
+  text-rendering: optimizeLegibility;
+}
+
+/* Add responsive adjustments */
+@media (max-width: 768px) {
+  .about-me-text-paragraph {
+    font-size: 0.95rem;
+    padding-right: 0;
+    margin-bottom: 1.25rem;
+  }
+}
